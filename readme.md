@@ -1,0 +1,1 @@
+Study project created to develop the practice of html and css
