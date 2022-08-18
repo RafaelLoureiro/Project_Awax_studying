@@ -390,15 +390,23 @@ Specific Areas
 }
 
 /*slides config*/
+.section-body--team {
+    color: #000;
+}
+
 .section-team {
+    display: flex;
     overflow: hidden;
     max-width: 880px;
     margin: auto;
 }
 
 .section-team_sliders_banner {
+    display: flex;
     width: 1000vw;
     height: 100%;
+    min-width: 250px;
+    min-height: 300px;
 }
 
 /*slide aling (display: inline-block)*/
@@ -414,10 +422,7 @@ Specific Areas
 .section-team_slider_area_banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100%;
-    color: #fff;
 }
 
 /*pointer slides*/
@@ -442,5 +447,54 @@ Specific Areas
 }
 
 .section-team_banner .active {
+    background-color: #b28756;
+}
+
+/*avatar config*/
+
+
+.saction-team--avatar {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 150px;
+    height: auto;
+}
+
+.section-team--name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-team--role {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.section-team--social {
+    display: flex;
+    justify-content: center;
+}
+
+.section-team--social a {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: #ccc;
+}
+
+.section-team--social a:hover {
+    /*hover*/
     background-color: #b28756;
 }
