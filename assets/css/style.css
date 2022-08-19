@@ -603,10 +603,135 @@ Specific Areas
 
 .section-companies img {
     margin: 20px;
-    max-width: 80px;
+    max-width: 120px;
     max-height: 60;
 
 
 }
 
 /**/
+
+
+
+.price {
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team-area--price {
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*slides config*/
+.section-body--team {
+    color: #000;
+}
+
+.section-team {
+    display: flex;
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-team_sliders_banner {
+    display: flex;
+    width: 1000vw;
+    height: 100%;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+/*slide aling (display: inline-block)*/
+.section-team_slider_banner {
+    width: 30vw;
+    height: 100%;
+    min-width: 100px;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.section-team_slider_area_banner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section-team_banner .active {
+    background-color: #b28756;
+}
+
+/*text config*/
+
+
+.saction-team--price {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    text-align: center;
+    height: auto;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.section-team--ex {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+.section-team--price {
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.section-team--sub {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 3px;
+    color: #ccc;
+}
+
+.section-team--role {
+    text-align: center;
+    color: #999;
+}
+
+.section-team--price-button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-team--price-button:hover {
+    background-color: #b28756;
+}
+
+.section-team--price-button a {
+    font-weight: 700;
+    border-radius: 13px;
+    font-size: 17px;
+}
