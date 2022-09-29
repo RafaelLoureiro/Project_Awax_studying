@@ -120,6 +120,7 @@ header {
     display: flex;
     flex-direction: column;
     height: 100%;
+    text-align: center;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -150,7 +151,9 @@ header {
     align-items: center;
 }
 
-.banner .pointer {
+.banner .pointer1,
+.pointer2,
+.pointer3 {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -160,7 +163,7 @@ header {
     cursor: pointer;
 }
 
-.banner .pointer.active {
+.banner .pointer1.active {
     background-color: #B28756;
 }
 
@@ -475,7 +478,9 @@ CSS DE ÁREAS ESPECÍFICAS
     align-items: center;
 }
 
-.section-team-area .pointer {
+.section-team-area .pointer1,
+.pointer2,
+.pointer3 {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -485,7 +490,7 @@ CSS DE ÁREAS ESPECÍFICAS
     cursor: pointer;
 }
 
-.section-team-area .pointer.active {
+.section-team-area .pointer1.active {
     background-color: #B28756;
 }
 
@@ -593,7 +598,9 @@ CSS DE ÁREAS ESPECÍFICAS
     margin-top: 40px;
 }
 
-.section-testimonials .pointer {
+.section-testimonials .pointer1,
+.pointer2,
+.pointer3 {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -603,7 +610,7 @@ CSS DE ÁREAS ESPECÍFICAS
     cursor: pointer;
 }
 
-.section-testimonials .pointer.active {
+.section-testimonials .pointer1.active {
     background-color: #B28756;
 }
 
@@ -745,7 +752,9 @@ CSS DE ÁREAS ESPECÍFICAS
     margin-top: 40px;
 }
 
-.section-premium .pointer {
+.section-premium .pointer1,
+.pointer2,
+.pointer3 {
     width: 15px;
     height: 15px;
     border: 2px solid #B28756;
@@ -755,7 +764,7 @@ CSS DE ÁREAS ESPECÍFICAS
     cursor: pointer;
 }
 
-.section-premium .pointer.active {
+.section-premium .pointer1.active {
     background-color: #B28756;
 }
 
