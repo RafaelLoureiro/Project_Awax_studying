@@ -1,26 +1,27 @@
 
-let slidePosition = document.querySelector('.banner').value;
-
+let slidePosition = document.querySelector('.slidearea').value;
+let menuPointers = document.querySelector('.banner').value;
 
 //eventes
 //add event pointer bunner
 document.querySelector('.pointer1').addEventListener('click', () => {
-    let slidePosition = document.querySelector('.slidearea');
-    if (slidePosition === -200 || slidePosition !== -400) {
+    let slidePosition = document.querySelector('.banner');
+    if (slidePosition !== -100 || slidePosition !== -200) {
         slidePosition.style.marginLeft = '0vw';
+
     }
 });
 
 document.querySelector('.pointer2').addEventListener('click', () => {
-    let slidePosition = document.querySelector('.slidearea');
-    if (slidePosition !== 0 || slidePosition !== -400) {
-        slidePosition.style.marginLeft = '-85vw';
+    let slidePosition = document.querySelector('.banner');
+    if (slidePosition !== 0 || slidePosition !== -200) {
+        slidePosition.style.marginLeft = '-100vw';
     }
 });
 document.querySelector('.pointer3').addEventListener('click', () => {
-    let slidePosition = document.querySelector('.slidearea');
-    if (slidePosition !== 0 || slidePosition !== -200) {
-        slidePosition.style.marginLeft = '-400vw';
+    let slidePosition = document.querySelector('.banner');
+    if (slidePosition !== -200 && slidePosition !== 0) {
+        slidePosition.style.marginLeft = '-200vw';
     }
 });
 
